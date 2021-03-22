@@ -2,8 +2,8 @@
 
 module top(
     input           [9:0]   SW,
-    input                   DP,
-    input           [7:0]   AN,
+    output                  DP,
+    output          [7:0]   AN,
     output          [6:0]   HEX
     );
     
